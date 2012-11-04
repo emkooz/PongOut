@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/PO.dir/src/main.cpp.o CMakeFiles/PO.dir/src/Camera.cpp.o CMakeFiles/PO.dir/src/Keys.cpp.o CMakeFiles/PO.dir/src/Ball.cpp.o CMakeFiles/PO.dir/src/Engine.cpp.o  -o PO -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lGLEW -lglfw -Wl,-Bstatic -lSOIL -Wl,-Bdynamic 
