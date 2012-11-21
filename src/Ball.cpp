@@ -2,6 +2,10 @@
 
 Ball::Ball()
 {
+}
+
+void Ball::Init()
+{	
 	//Create ball vertices and UV coords
 	ballVert.push_back(glm::vec2(0 , 0));                                       /*left      /\*/
 	ballVert.push_back(glm::vec2(0 , 30));                                      /*right    /  \*/
@@ -39,12 +43,11 @@ Ball::Ball()
 	sampler = glGetUniformLocation (shader, "sampler");
 	coord = glGetAttribLocation(shader, "coord");
 	uv = glGetAttribLocation (shader, "uv");
-	
-	
 }
 
 void Ball::Draw()
 {
+	
 	glUseProgram (shader);
 		glUniformMatrix4fv(MVPid, 1, GL_FALSE, &Camera.GetMVP()[0][0]); // Send MVP to shader
 		

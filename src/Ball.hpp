@@ -25,6 +25,7 @@ class Ball
 	public:
 	//Constructor
 	Ball();
+	void Init(); // temporary 
 	
 	void Draw();
 	

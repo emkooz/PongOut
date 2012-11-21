@@ -1,7 +1,5 @@
 #include "Keys.hpp"
 
-
-
 void Keys::Init()
 {
 	for (int x = 0; x < 512; x++) // Set every key to false.

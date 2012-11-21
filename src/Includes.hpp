@@ -20,9 +20,7 @@
 #include "Engine.hpp"
 #include "Ball.hpp"
 
-
-static Engine Game(800 , 600);
+static 	Engine Game(800 , 600);
 
 static Cam Camera;
-
 #endif
