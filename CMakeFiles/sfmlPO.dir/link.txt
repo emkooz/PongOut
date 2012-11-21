@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/sfmlPO.dir/src/main.cpp.o CMakeFiles/sfmlPO.dir/src/Ball.cpp.o  -o sfmlPO -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lGLEW -lsfml-system -lsfml-window -lsfml-graphics 

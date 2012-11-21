@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bumrang/sfmlPO/src/Ball.hpp
+
+/home/bumrang/sfmlPO/src/Includes.hpp
+GL/glew.h
+-
+SFML/System.hpp
+-
+SFML/Window.hpp
+-
+SFML/Graphics.hpp
+-
+iostream
+-
+Ball.hpp
+/home/bumrang/sfmlPO/src/Ball.hpp
+
+/home/bumrang/sfmlPO/src/main.cpp
+Includes.hpp
+/home/bumrang/sfmlPO/src/Includes.hpp
+
