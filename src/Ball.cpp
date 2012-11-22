@@ -15,34 +15,39 @@ Ball::Ball(sf::RenderWindow* win , unsigned int width, unsigned int height)
      
      int vx = 200;
      int vy = 200;
+     
+     rect.setSize (sf::Vector2f (50 , 50));
+     rect.setOutlineColor (sf::Color::Red);
+     rect.setOutlineThickness (10);
+     rect.setPosition (0 , 0);
 }
 
 void Ball::Update(float DeltaTime)
 {
-	    if (x > Width - 32)
+	  /*  if (x > Width - 32.f)
 		{
-			x = Width - 32;
-			vx *= -1;
+			x = Width - 32.f;
+			vx *= -1.f;
 		}
-		if (x < 2 )
+		if (x < 2.f )
 		{
-			x = 3;
-			vx *= -1;
+			x = 3.f;
+			vx *= -1.f;
 		}
 		
-		if (y > Height - 32)
+		if (y > Height - 32.f)
 		{
-			y = Height - 32;
-			vy *= -1;
+			y = Height - 32.f;
+			vy *= -1.f;
 		}
-		if (y < 2)
+		if (y < 2.f)
 		{
-			y = 3;
-			vy *= -1;
+			y = 3.f;
+			vy *= -1.f;
 		}
  
 		 x += vx * DeltaTime;
-		 y += vy * DeltaTime;
+		 y += vy * DeltaTime; */
 			
 		 sprite.setPosition (x , y);
 }
@@ -51,4 +56,5 @@ void Ball::Draw()
 {
 	     // Draw the sprite
          Window_->draw(sprite);
+         Window_->draw(rect);
 }

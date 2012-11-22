@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/bumrang/sfmlPO/src/Ball.cpp
+Includes.hpp
+/home/bumrang/sfmlPO/src/Includes.hpp
+
 /home/bumrang/sfmlPO/src/Ball.hpp
 
 /home/bumrang/sfmlPO/src/Includes.hpp

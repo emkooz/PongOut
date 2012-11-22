@@ -8,6 +8,8 @@ class Ball
 	sf::Texture texture;
 	sf::Sprite sprite;
 	
+	sf::RectangleShape rect;
+	
 	sf::RenderWindow* Window_;
 	
 	unsigned int Width, Height;
