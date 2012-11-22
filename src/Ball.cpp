@@ -17,8 +17,6 @@ Ball::Ball(sf::RenderWindow* win , unsigned int width, unsigned int height)
      int vy = 200;
      
      rect.setSize (sf::Vector2f (50 , 50));
-     rect.setOutlineColor (sf::Color::Red);
-     rect.setOutlineThickness (10);
      rect.setPosition (0 , 0);
 }
 
